@@ -1,0 +1,30 @@
+using System; 
+
+namespace ABC
+{
+    class Program
+    {
+         int globalNumber = 100;
+
+       public static void Main(string[] args)
+        {
+           
+            int localNumber = 50;
+
+            
+            Console.WriteLine("Local Variable: " + localNumber);
+            Console.WriteLine("Global Variable before update: " + globalNumber);
+
+            
+            UpdateGlobalNumber();
+
+            Console.WriteLine("Global Variable after update: " + globalNumber);
+        }
+S
+        static void UpdateGlobalNumber()
+        {
+            // Adding 10 to global variable
+            globalNumber = globalNumber + 10;
+        }
+    }
+}
