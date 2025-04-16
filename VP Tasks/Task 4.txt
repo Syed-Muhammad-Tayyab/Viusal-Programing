@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Data Type Ranges in C#:\n");
+S
+        Console.WriteLine("int:");
+        Console.WriteLine($"Min: {int.MinValue}");
+        Console.WriteLine($"Max: {int.MaxValue}\n");
+
+        Console.WriteLine("short:");
+        Console.WriteLine($"Min: {short.MinValue}");
+        Console.WriteLine($"Max: {short.MaxValue}\n");
+
+        Console.WriteLine("long:");
+        Console.WriteLine($"Min: {long.MinValue}");
+        Console.WriteLine($"Max: {long.MaxValue}\n");
+    }
+}
